@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "trading_app"
+version = "0.1.0"
+description = "A multi-timeframe pattern scanner and financial dashboard"
+authors = ["chunt41 <your_email@example.com>"]
+
+[tool.poetry.dependencies]
+streamlit = "^1.8"
+yfinance = "^0.1.67"
+requests_cache = "^0.7.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+pytest-cov = "^3.0"
